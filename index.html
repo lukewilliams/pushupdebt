@@ -57,6 +57,9 @@
         #luke {
             background: red;
         }
+        #fernanda {
+            background: pink;
+        }
         #label-lamees {
             color: rgb(255, 153, 0);
         }
@@ -72,6 +75,9 @@
         #label-luke {
             color: red;
         }
+        #label-fernanda {
+            color: pink;
+        }
     </style>
 </head>
 <body>
@@ -83,6 +89,7 @@
             <div class="bar" id="alex"></div>
             <div class="bar" id="earl"></div>
             <div class="bar" id="luke"></div>
+            <div class="bar" id="fernanda"></div>
         </div>
         <div class="labels">
             <div class="label" id="label-lamees">Lamees</div>
@@ -90,6 +97,7 @@
             <div class="label" id="label-alex">Alex</div>
             <div class="label" id="label-earl">Earl</div>
             <div class="label" id="label-luke">Luke </div>
+            <div class="label" id="label-fernanda">Fernanda </div>
         </div>
     </div>
 
@@ -98,9 +106,10 @@
         data = {
             lamees: 100,
             winnie: 0,
-            alex: 0,
+            alex: -10,
             earl: -5,
             luke: 0,
+            fernanda: -25,
         }
         let max = 50
         Object.keys(data).forEach((k) => {
